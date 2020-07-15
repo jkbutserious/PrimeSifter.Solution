@@ -11,11 +11,11 @@ namespace PrimeSifter.Tests
     public void GreaterThanOne_NumberIsGreaterThanOne_True()
     {
       //Arrange
-      // IsPrime testPrime = new IsPrime();
-      int N = 2;
+      IsPrime testPrime = new IsPrime();
+      int Factor = 2;
       
       //Act
-      bool NTest = GreaterThanOne(N);
+      bool NTest = testPrime.GreaterThanOne(Factor);
 
       //Assert
       Assert.AreEqual(true, NTest);
