@@ -5,7 +5,7 @@ using System;
 namespace PrimeSifter.Tests
 {
   [TestClass]
-  public class IsPrime
+  public class IsPrimeTests
   {
     [TestMethod]
     public void GreaterThanOne_NumberIsGreaterThanOne_True()
