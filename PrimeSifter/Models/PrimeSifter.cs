@@ -3,8 +3,20 @@ using System.Collections.Generic;
 
 namespace PrimeSifter.Models
 {
-  public class PrimeNumber
+  public class IsPrime
   {
-
+    // public int UserNumber { get; set; }
+    // private static List<PrimeNumbers> _primes = new IsPrime;
+    public bool GreaterThanOne(int N)
+      {
+        if (N > 1)
+        {
+          return true;
+        }
+        else
+        {
+          return false;
+        }
+      }
   }
 }
