@@ -24,13 +24,13 @@ namespace PrimeSifter.Models
       {
         return false;
       }
-      else if (N == 2)
+      else if (N == 2 || N == 3 || N == 5 || N == 7)
       {
-        return false;
+        return true;
       }
       else if (N % 2 != 0 || N % 3 != 0 || N % 5 != 0 || N % 7 != 0)
       {
-        return false;
+        return true;
       }
       else
       {
