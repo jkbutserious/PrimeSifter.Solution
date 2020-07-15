@@ -20,5 +20,19 @@ namespace PrimeSifter.Tests
       //Assert
       Assert.AreEqual(true, NTest);
     }
+
+    [TestMethod]
+    public void PrimeChecker_NumberIsPrime_True()
+    {
+      //Arrange
+      IsPrime testPrime = new IsPrime();
+      int Factor = 5;
+
+      //Act
+      bool FTest = testPrime.PrimeChecker(Factor);
+
+      //Assert
+      Assert.AreEqual(true, FTest);
+    }
   }
 }
