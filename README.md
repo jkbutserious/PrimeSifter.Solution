@@ -20,12 +20,10 @@
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program checks to ensure user input is whole number** | asdklfj | "Please input a whole number!" |
-| **Program accepts 3 inputs from user representing sides of triangle** | 3, 4, 5 | none |
-| **Program tests input to determine if triangle is equilateral** | 4, 4, 4 | true |
-| **Program tests input to determine if triangle is isosceles** | 4, 4, 2 | true |
-| **Program tests input to determine if triangle is scalene** | 2, 3, 4 | true |
-| **Program tests input to determine if numbers do not a triangle** | 2, 4, 10 | true |
+| **Program checks that the number provided is greater than 1** | 0 | "Please input a number greater than 1!" |
+| **Program should be able to determine if a number is a prime number** | 5 | Prime Number |
+| **Program checks all numbers less than the provided number to see if they are prime** |  |  |
+| **Program returns all prime numbers less than the provided number** | 10 | 2,3,5,7 |
 
 
 ## Support and contact details
