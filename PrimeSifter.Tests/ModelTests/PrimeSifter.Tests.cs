@@ -34,5 +34,21 @@ namespace PrimeSifter.Tests
       //Assert
       Assert.AreEqual(true, FTest);
     }
+
+    [TestMethod]
+    public void PrimeLister_NumbersWillReturnChronologically_True()
+    {
+      //Arrange
+      IsPrime testPrime = new IsPrime();
+      int Factor = 7;
+
+      //Act
+      testPrime.PrimeLister(Factor);
+      int NumberOfPrimes = _primes.Length();
+
+      // int PTest[] = testPrime.PrimeLister(Factor);
+
+      Assert.AreEqual(3, NumberOfPrimes);
+    }
   }
 }
