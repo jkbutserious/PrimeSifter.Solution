@@ -1,11 +1,10 @@
 using System; 
 using System.Collections.Generic;
 
-namespace PrimeSift
+namespace PrimeSifter.Models
 {
   public class PrimeNumber
   {
 
-  }
   }
 }
